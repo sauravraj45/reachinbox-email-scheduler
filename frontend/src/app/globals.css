@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-50: #ecfbf1;
+  --color-brand-100: #d4f5e0;
+  --color-brand-200: #a9e6c2;
+  --color-brand-300: #74d29f;
+  --color-brand-500: #16b157;
+  --color-brand-600: #0ca34c;
+  --color-brand-700: #08863d;
+  --color-brand-800: #18623b;
+}
+
+body {
+  background: #ffffff;
+  color: #111827;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
